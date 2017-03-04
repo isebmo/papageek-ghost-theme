@@ -1,0 +1,15 @@
+<input type="checkbox" id="slidemenu-btn">
+<label for="slidemenu-btn"></label>
+<nav id="slide-menu">
+    <label for="search"></label>
+    <input id="search" type="text" placeholder="Rechercher">
+    <ul>
+        <!-- Loop through the navigation items -->
+        {{#foreach navigation}}
+            <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}"><a href="{{url absolute="true"}}">{{label}}</a>
+            </li>
+        {{/foreach}}
+        <!-- End the loop -->
+    </ul>
+    {{> social }}
+</nav>

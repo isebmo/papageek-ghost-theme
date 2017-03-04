@@ -1,0 +1,16 @@
+body {
+  font-family: 'Merriweather', serif;
+  background-color: $color1;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: initial;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-accent {
+  color: $color3;
+}

@@ -1,0 +1,29 @@
+#posts {
+  article {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    min-height: 35rem;
+    margin-top: 1rem;
+    border: 1px solid white;
+
+  }
+
+  time {
+    display: block;
+    color: $color3;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  .posts-meta {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0 2%;
+    background-color: rgba(25, 26, 25, .5);
+  }
+
+}
